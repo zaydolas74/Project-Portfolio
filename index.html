@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zayd Maadal - Portfolio</title>
+    <meta name="description" content="Web portfolio Zayd Maadal" />
+    <meta name="keywords" content="portfolio, yourname, skills, projects" />
+    <title>Swiper demo</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body lang="en">
+    <header data-aos="fade-in" data-aos-delay="250" data-aos-duration="1000">
+      <h1>ZAYD</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section
+      data-aos="fade-in"
+      data-aos-delay="250"
+      data-aos-duration="2000"
+      id="about"
+    >
+      <p>
+        Hi! I'm <span>Zayd Maadal</span> a
+        <span>student digital experience design</span>. I'm passionate about
+        <span>coding</span>, <span>designing</span>, and
+        <span>creating digital products</span> with a focus on
+        <span>frontend development</span>. I enjoy
+        <span>bringing ideas to life</span> and
+        <span>crafting intuitive user experiences</span> that make a difference.
+      </p>
+    </section>
+    <div data-aos="fade-in" data-aos-delay="250" data-aos-duration="1000">
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+    </div>
+    <section
+      data-aos="fade-in"
+      data-aos-delay="250"
+      data-aos-duration="1000"
+      id="portfolio"
+    >
+      <h1>PROJECTS</h1>
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="Poster_Project.png" alt="Poster" class="pixelate" />
+            <div id="project-info">
+              <strong><p>INCEPTION POSTER</p></strong>
+              <div id="tags">
+                <div id="tag">web</div>
+                <div id="tag">mobile</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://placehold.co/150" alt="Placeholder image" />
+            <div id="project-info">
+              <p>Project 1</p>
+              <div id="tags">
+                <div id="tag">web</div>
+                <div id="tag">mobile</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://placehold.co/150" alt="Placeholder image" />
+            <div id="project-info">
+              <p>Project 1</p>
+              <div id="tags">
+                <div id="tag">web</div>
+                <div id="tag">mobile</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://placehold.co/150" alt="Placeholder image" />
+            <div id="project-info">
+              <p>Project 1</p>
+              <div id="tags">
+                <div id="tag">web</div>
+                <div id="tag">mobile</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://placehold.co/150" alt="Placeholder image" />
+            <div id="project-info">
+              <p>Project 1</p>
+              <div id="tags">
+                <div id="tag">web</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div data-aos="fade-in" data-aos-delay="250" data-aos-duration="1000">
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+    </div>
+
+    <section
+      data-aos="fade-in"
+      data-aos-delay="250"
+      data-aos-duration="1000"
+      id="contact"
+    >
+      <div><h1>Contact Me</h1></div>
+      <div>
+        <a href="mailto:zayd.maadal@hotmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/zayd-maadal-90168b204/"
+          >LinkedIn</a
+        >
+      </div>
+    </section>
+    <div data-aos="fade-in" data-aos-delay="250" data-aos-duration="1000">
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+    </div>
+    <footer data-aos="fade-in" data-aos-delay="250" data-aos-duration="1000">
+      <p>&copy; 2024 Zayd Maadal</p>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 10,
+        centeredSlides: true,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
