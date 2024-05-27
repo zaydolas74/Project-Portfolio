@@ -117,6 +117,7 @@ hr {
   scrollbar-width: thin;
   scrollbar-color: var(--tertiary) rgba(194, 194, 194, 0.1);
   scroll-snap-type: x mandatory;
+  scroll-padding-inline-start: 50%; /* Pas deze waarde aan naar de gewenste positie */
 }
 
 .mySwiper-wrapper {
@@ -167,7 +168,9 @@ hr {
   margin: 0;
   padding: 0;
   list-style: none;
+  align-items: center; /* Toegevoegd */
 }
+
 #tag {
   display: flex;
   font-size: 10px;
@@ -175,6 +178,7 @@ hr {
   padding: 0.25rem 0.5rem;
   border: 1px solid var(--primary);
 }
+
 #contact {
   height: 70vh;
   display: flex;
@@ -207,5 +211,8 @@ footer {
   }
   main {
     padding: 1rem;
+  }
+  #tags {
+    display: none;
   }
 }
